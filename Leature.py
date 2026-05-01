@@ -1,0 +1,1 @@
+print("hello ")  # print method is display output
