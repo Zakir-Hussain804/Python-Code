@@ -49,4 +49,15 @@ print(not (30>2)) #false
 print(not (1>10)) #true
 print ((20>10) and (1>0)) # all condtion  (true )true
 print ((10>20) and (1>0)) # false  
-print ((10>20) and (1>0)) # false 
+print ((10>20) or (1>0)) # true
+
+
+#Tyoe Converstion
+# 2 two type of type converstion 
+#(A) Implicit Type Conversion
+#Python khud automatically convert karta hai
+#Jab different types use hote hain
+x=10
+y=3.2
+print(int(y)) 
+print(float(x))
