@@ -14,3 +14,18 @@ z="100"
 print(int(z)) #String convert to int 
 print(type(z)) #int 
 
+#userInput Python
+Name=input("Enter the Your Name :")
+print(type(Name))
+print("WellCome To :",Name)
+
+number=input("Enter Number")
+print(type(number)) #string
+number2=int(input("Enter Number"))
+print(type(number)) #int
+
+#average two number in user input 
+a=float(input("Enter the your Number 1 :"))
+b=float(input("Enter the your Number 2 :"))
+avarage=(a+b)/2
+print(avarage)
