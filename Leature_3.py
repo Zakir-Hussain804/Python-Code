@@ -19,3 +19,18 @@ elif userName !="user":
     print("Wrong userName")
 else :
     print("Wrong user and Password")
+
+
+#  Python Case In Match 
+# check user enter color
+
+color=input("Enter Color :") 
+match color :
+    case "red":
+        print("Stop")
+    case 'yellow':
+        print("ready ")
+    case "green":
+        print("run")
+    case _:
+        print('wrond enter color')
