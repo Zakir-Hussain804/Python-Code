@@ -4,6 +4,11 @@ LastName="Hussain"
 age=21
 github="Follow me"
 print("Name :",FirstName,LastName,"\n","Age :" ,age, "\n","Github :",github )
+print("Many Values to Multiple Variables")
+x,y,z="one","two","three" #Many Values to Multiple Variables
+print(x)
+print(y)
+print(z)
 #DATA type of Python 
 
 a="hello word"
