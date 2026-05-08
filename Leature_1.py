@@ -9,6 +9,11 @@ x,y,z="one","two","three" #Many Values to Multiple Variables
 print(x)
 print(y)
 print(z)
+#One Value to Multiple Variables
+x,y,z="Hello"
+print(x)
+print(y)
+print(z)
 #DATA type of Python 
 
 a="hello word"

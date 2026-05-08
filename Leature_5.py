@@ -6,7 +6,8 @@ var  ="hello"
 
 # check o include ya hai ya is string  use karta hai in operator
 
-if "u" in var :
-    print("include the a o")
-else :
- print("not inculde ")
+# if "u" in var :
+#     print("include the a o")
+# else :
+#  print("not inculde ")
+
