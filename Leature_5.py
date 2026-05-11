@@ -15,3 +15,23 @@ sum=0
 for i in range(0,10):
     sum+=i
 print(sum)
+#Break
+for k in range(8):
+   if k==3:
+      break
+   print(k)
+#continu
+for l in range(1,10):
+   if l==4:
+      continue
+   print(l)
+
+# count the vowel 
+word='Pakistain'
+
+count=0
+for ch in word:
+   if ch=="a" or ch=='e' or ch=='i' or ch=='o' or ch=='u':
+      print(ch)
+      count +=1
+   print(count)
