@@ -34,6 +34,7 @@ print("remove for of this  1  = {}".format(List1))
 List1.pop(4)
 print(" Remove Specified Index 4  = {}".format(List1))
 
+# search  
 list2=[1,2,35,22,11,233,443,9]
 x=233
 idx=0
