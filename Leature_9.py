@@ -35,3 +35,13 @@ list1.append("Zakir")
 #second list convet to tuple 
 tuple1=tuple(list1)
 print("add new value in last index = {}".format(tuple1))
+#use the while loop
+i=0
+while i<len(tuple1):
+    print(tuple1[i])
+    i+=1
+
+#tuple Method 
+num=(1,234,21,1,3,4,5,6,7,844,3,2,3,)
+print("count of 1 = ",num.count(1))
+print("find the index of =",num.index(6))
