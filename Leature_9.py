@@ -24,3 +24,14 @@ x[2]="kiwi"
 #list convert to tuple
 tup3=tuple(x)
 print("after tup3 =",tup3)
+#########################################################################
+tuple1=("ali","hussain","azam","usman")
+print("tuple =",tuple1)
+#add new  value a last index
+#first tuple convert to list 
+list1=list(tuple1)
+#use the append method
+list1.append("Zakir")
+#second list convet to tuple 
+tuple1=tuple(list1)
+print("add new value in last index = {}".format(tuple1))
